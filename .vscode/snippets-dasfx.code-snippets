@@ -1,0 +1,8 @@
+{
+    "React useEffect": {
+        "scope": "javascript,javascriptreact",
+        "prefix": "dasfx",
+        "body": ["useEffect(() => {", "\t${2}", "},[${1}]);"],
+        "description": "React useEffect"
+    }
+}

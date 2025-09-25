@@ -1,0 +1,36 @@
+# TODO
+
+-   [x] Streamline Installation Process
+    -   [x] Both
+        -   [x] Can we update .env with First, Last and email?
+        -   [x] Did Git name and email register? (Maybe at the end of everything, we spit out some checks. Like node -v, and git profile info - something I can review - separate confirmation script)
+        -   [x] Add SSH keys if they do not exsist: https://chatgpt.com/c/6760536c-703c-8001-baaa-6c7ad280152e
+    -   [x] MacOS
+        -   [x] How to make sure they are in their course folder before running script
+            -   [x] it git inits whatever folder they are in
+            -   [x] I made the mistake, so can they
+    -   [x] Windows
+-   [ ] Separate Branches
+    -   [ ] Lesson Outline - simplify - may need to change folder structure
+    -   [x] Put Completed Project into separate branch
+        -   [x] wire up to render.com
+    -   [x] Convert master to Starter App
+        -   [x] Things to remove
+            -   [x] Layout
+            -   [x] Pages
+            -   [x] Core Components
+                -   [x] Tabbed
+                -   [x] Slideshow
+-   [x] Update OS VMs to latest - make sure
+-   [x] Record OS Installation Videos
+    -   [x] remove `react-responsive-carousel` package
+    -   [x] Will end up using macOs version for all subsequent lessons
+    -   [x] Record changing readme and running app
+-   [x] Record Lesson 1: Sun And Moon
+    -   [x] Show windows users again how to access app if closed out
+    -   [x] Sun and Moon Lesson
+-   [x] Course Syllabus Updates
+    -   [x] Update Dates
+    -   [x] Update system requirements
+    -   [x] Change any references to Essay to Assignment
+    -   [ ] Using Chat GPT

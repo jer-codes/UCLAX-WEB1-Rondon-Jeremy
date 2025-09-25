@@ -1,0 +1,14 @@
+// jsconfig.json
+{
+    "compilerOptions": {
+        "baseUrl": "src/frontend/",
+        "paths": {
+            "@App/*": ["App/*"],
+            "@Theme/*": ["App/Theme/*"],
+            "@Layout/*": ["App/Layout/*"],
+            "@Pages/*": ["App/Pages/*"],
+            "@Core/*": ["App/Core/*"],
+            "@Routes/*": ["App/Routes/*"]
+        }
+    }
+}
