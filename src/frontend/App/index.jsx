@@ -1,44 +1,44 @@
+import { useState } from "react";
 import styled from "styled-components";
-import { HelmetProvider } from "react-helmet-async";
 
-// components
-import Meta from "@Core/components/Meta";
-
-//styles
-const AppStyled = styled.div`
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-    background: linear-gradient(to bottom, #007676, #004141);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+const SunAndMoonStyled = styled.div`
     text-align: center;
-    h1 {
-        font-size: 50px;
+
+    h2 {
+        font-size: 30px;
+        color: #d18c15;
+    }
+    img {
+        display: block;
+        margin: 30px auto;
+        padding: 20px;
+        border: solid 20px teal;
+        background-color: #015252;
     }
 `;
 
-// component
-const App = () => {
-    const pageTitle = `UCLAX Web 1: ${
-        import.meta.env.VITE_APP_CONFIG_STUDENT_NAME
-    }`;
+const SunAndMoon = () => {
+    const [SrcState, setSrcState] = useState("/assets/sunAndMoon/moon.png");
+
+    const changeToSun = () => {
+        setSrcState("/assets/sunAndMoon/sun.png");
+    };
+
+    const changeToMoon = () => {
+        setSrcState("/assets/sunAndMoon/moon.png");
+    };
+
     return (
-        <HelmetProvider>
-            <AppStyled>
-                <Meta pageTitle={pageTitle} />
-                <h1>{pageTitle}</h1>
-            </AppStyled>
-        </HelmetProvider>
+        <SunAndMoonStyled>
+            <h2>Sun and Moon</h2>
+            <img
+                src={SrcState}
+                alt="Sun and Moon"
+                onMouseEnter={changeToSun}
+                onMouseLeave={changeToMoon}
+            />
+        </SunAndMoonStyled>
     );
 };
 
-export default App;
+export default SunAndMoon;
