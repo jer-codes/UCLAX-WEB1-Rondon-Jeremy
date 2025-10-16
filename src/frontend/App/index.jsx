@@ -1,6 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 
+// media queries
+import { MediaQueryProvider } from "./Theme/media/MediaQueryContext";
+
 // components
 import AppRoutes from "./Routes";
 import Layout from "./Layout";
@@ -9,13 +12,15 @@ import Layout from "./Layout";
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <HelmetProvider>
-                <Layout>
-                    <AppRoutes />
-                </Layout>
-            </HelmetProvider>
-        </BrowserRouter>
+        <MediaQueryProvider>
+            <BrowserRouter>
+                <HelmetProvider>
+                    <Layout>
+                        <AppRoutes />
+                    </Layout>
+                </HelmetProvider>
+            </BrowserRouter>
+        </MediaQueryProvider>
     );
 };
 
