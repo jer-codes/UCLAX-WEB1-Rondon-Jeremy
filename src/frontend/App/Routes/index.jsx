@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 // page components
 import Home from "@App/Pages/Home";
 import Staff from "@App/Pages/Staff";
+import StaffMember from "@App/Pages/Staff/StaffMember";
 import Contact from "@App/Pages/Contact";
 
 //course work routes
@@ -15,7 +16,10 @@ const AppRoutes = () => {
     return (
         <Routes>
             <Route element={<Home />} index />
-            <Route element={<Staff />} path="/staff" />
+            <Route path="/staff">
+                <Route element={<Staff />} path="" />
+                <Route element={<StaffMember />} path=":staffId" />
+            </Route>
             <Route element={<Contact />} path="/contact" />
             <Route element={<CourseWork />} path="/course-work">
                 <Route element={<Assignments />} path="" />

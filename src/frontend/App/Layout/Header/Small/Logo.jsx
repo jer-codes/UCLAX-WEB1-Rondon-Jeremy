@@ -8,7 +8,7 @@ const LogoStyled = styled.div`
     display: flex;
     justify-content: center;
     > div {
-        height: 300 px;
+        height: 300px;
         display: flex;
         align-items: center;
         padding: 20px;
