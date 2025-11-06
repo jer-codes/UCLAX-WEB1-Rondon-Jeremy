@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-import Slide from "./slide";
+import Slide from "./Slide";
 
 // component
 const Slideshow = ({ slides }) => {
