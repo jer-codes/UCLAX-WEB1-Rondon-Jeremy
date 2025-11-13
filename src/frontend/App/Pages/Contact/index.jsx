@@ -1,6 +1,7 @@
 //component
 import Meta from "@App/Core/components/Meta";
 import Inset from "@App/Layout/inset";
+import Form from "./Form";
 
 // component
 const Contact = () => {
@@ -9,6 +10,7 @@ const Contact = () => {
             <Inset>
                 <Meta pageTitle="Contact" />
                 <h1>Contact</h1>
+                <Form />
             </Inset>
         </main>
     );
