@@ -15,8 +15,24 @@ export const createActions = (state, dispatch) => {
         setFormInputs(formInputs);
     };
 
+    const setFormStatus = (formStatus) => {
+        dispatch({
+            type: actionTypes.SET_FORM_STATUS,
+            formStatus,
+        });
+    };
+
+    const setGlobalMessage = (globalMessage) => {
+        dispatch({
+            type: actionTypes.SET_GLOBAL_MESSAGE,
+            globalMessage,
+        });
+    };
+
     return {
         setFormInputs,
         setFormInput,
+        setFormStatus,
+        setGlobalMessage,
     };
 };

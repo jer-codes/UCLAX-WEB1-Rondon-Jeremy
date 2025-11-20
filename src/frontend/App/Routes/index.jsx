@@ -12,6 +12,7 @@ import Assignments from "@App/Pages/CourseWork/Assignments";
 import SunAndMoon from "@App/Pages/CourseWork/SunAndMoon";
 import Responsive from "@App/Pages/CourseWork/Responsive";
 import FormInputState from "@App/Pages/CourseWork/FormInputState";
+import PseudoLogin from "@App/Pages/CourseWork/PseudoLogin";
 
 const AppRoutes = () => {
     return (
@@ -27,6 +28,7 @@ const AppRoutes = () => {
                 <Route element={<SunAndMoon />} path="sun-and-moon" />
                 <Route element={<Responsive />} path="responsive" />
                 <Route element={<FormInputState />} path="form-input-state" />
+                <Route element={<PseudoLogin />} path="pseudo-login" />
             </Route>
         </Routes>
     );

@@ -13,6 +13,7 @@ const CourseWorkMenu = () => {
             <NavLink to="/course-work/form-input-state">
                 Form Input State
             </NavLink>
+            <NavLink to="/course-work/pseudo-login">Pseudo Login</NavLink>
         </nav>
     );
 };

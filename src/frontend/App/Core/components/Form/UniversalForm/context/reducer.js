@@ -7,6 +7,18 @@ export const reducer = (state, action) => {
                 formInputs: action.formInputs,
             };
         }
+        case actionTypes.SET_FORM_STATUS: {
+            return {
+                ...state,
+                formStatus: action.formStatus,
+            };
+        }
+        case actionTypes.SET_GLOBAL_MESSAGE: {
+            return {
+                ...state,
+                globalMessage: action.globalMessage,
+            };
+        }
         default: {
             return { ...state };
         }

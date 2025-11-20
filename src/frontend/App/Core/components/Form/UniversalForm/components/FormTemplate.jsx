@@ -1,11 +1,18 @@
 import Inputs from "./Inputs";
+import Form from "./Form";
+import Message from "./Message";
+import SubmitButton from "./SubmitButton";
 
 // component
 
 const FormTemplate = () => {
     return (
         <div>
-            <Inputs />
+            <Message />
+            <Form>
+                <Inputs />
+                <SubmitButton />
+            </Form>
         </div>
     );
 };
