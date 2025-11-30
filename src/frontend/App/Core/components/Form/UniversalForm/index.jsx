@@ -1,6 +1,8 @@
 import { useReducer, useMemo } from "react";
 import PropTypes from "prop-types";
 
+import SpamBusterProvider from "@Core/components/Form/SpamBuster";
+
 //context
 import UniversalFormContext from "./context";
 import { reducer } from "./context/reducer";
@@ -27,9 +29,11 @@ const UniversalForm = ({
     const value = useMemo(() => ({ state, dispatch }), [state, dispatch]);
 
     return (
-        <UniversalFormContext.Provider value={value}>
-            <FormTemplate />
-        </UniversalFormContext.Provider>
+        <SpamBusterProvider>
+            <UniversalFormContext.Provider value={value}>
+                <FormTemplate />
+            </UniversalFormContext.Provider>
+        </SpamBusterProvider>
     );
 };
 
