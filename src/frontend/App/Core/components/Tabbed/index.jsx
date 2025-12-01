@@ -21,5 +21,5 @@ export default Tabbed;
 
 // prop-types
 Tabbed.propTypes = {
-    tabs: PropTypes.array.isrequired,
+    tabs: PropTypes.array.isRequired,
 };
