@@ -1,27 +1,27 @@
 export const slidesData = [
     {
         id: 1,
-        src: "/assets/slideshowSlides/Core-Strength.jpg",
-        title: "Core Strength",
+        src: "/assets/slideshowSlides/slide0.png",
+        title: "Everdell and the Bellfaire Expansion!",
     },
     {
         id: 2,
-        src: "/assets/slideshowSlides/Staff-In-Action.jpg",
-        title: "Staff In Action",
+        src: "/assets/slideshowSlides/slide1.png",
+        title: "Try out a wide assortment of games in-store!",
     },
     {
         id: 3,
-        src: "/assets/slideshowSlides/Senior.jpg",
-        title: "Senior",
+        src: "/assets/slideshowSlides/slide2.png",
+        title: "We sell 3D board games!",
     },
     {
         id: 4,
-        src: "/assets/slideshowSlides/Group-Picture.jpg",
-        title: "Group Picture",
+        src: "/assets/slideshowSlides/slide3.png",
+        title: "We also feature fan creations!",
     },
     {
         id: 5,
-        src: "/assets/slideshowSlides/Aerial-Open-Gym.jpg",
-        title: "Aerial Open Gym",
+        src: "/assets/slideshowSlides/slide4.png",
+        title: "We sell the latest board game expansions!",
     },
 ];

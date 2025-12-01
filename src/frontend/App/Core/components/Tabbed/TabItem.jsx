@@ -5,16 +5,16 @@ import PropTypes from "prop-types";
 const TabItemStyled = styled.div`
     text-align: center;
     cursor: pointer;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 0px 5px 0px 0px;
     line-height: 40px;
-    margin-right: 5px;
+    margin-right: 2px;
     display: inline-block;
-    width: clamp(75px, 20%, 150px);
-    background-color: ${({ theme }) => theme.colors.secondary.light};
+    width: clamp(75px, 20%, 193.7px);
+    background-color: ${({ theme }) => theme.colors.primary.dark};
     color: ${({ theme }) => theme.colors.secondary.dark};
 
     &.selected {
-        background-color: ${({ theme }) => theme.colors.primary.default};
+        background-color: orange};
         color: ${({ theme }) => theme.colors.secondary.light};
     }
 `;

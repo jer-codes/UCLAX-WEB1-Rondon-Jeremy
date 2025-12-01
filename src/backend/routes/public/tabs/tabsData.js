@@ -1,20 +1,26 @@
 export const tabsData = [
     {
         id: 1,
-        src: "/assets/tabs/Alex-Esqueda-Box-Jump.jpg",
+        src: "/assets/tabs/tab1.png",
         title: "About",
-        text: "<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey to fit your lifestyle.</p>",
+        text: `
+            <p>Welcome to <strong>Two Point Five</strong> (the average thickness of a game board), your local hub for board games of all kinds!
+            Whether you’re a casual player, a competitive strategist, or a role-playing enthusiast,
+            our shop offers a curated selection of games, accessories, and events to suit every taste.</p>
+            <p>From family-friendly classics to the latest indie releases, we provide a space where the
+            community can gather, learn, and play together. Come discover your next favorite game with us!</p>
+        `,
     },
     {
         id: 2,
-        src: "/assets/tabs/Tire-Flip.jpg",
+        src: "/assets/tabs/tab2.png",
         title: "Mission",
-        text: "<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>",
-    },
-    {
-        id: 3,
-        src: "/assets/tabs/Kids.jpg",
-        title: "Vision",
-        text: "<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.</p>",
+        text: `
+            <p>Our mission is to create a welcoming, inclusive, and vibrant space for board game lovers
+            of all ages and experience levels. We believe in the power of tabletop games to bring people
+            together, spark creativity, and build lasting friendships.</p>
+            <p>Through events, workshops, and personalized game recommendations, we aim to support local
+            designers, foster community connections, and make board gaming accessible to everyone.</p>
+        `,
     },
 ];

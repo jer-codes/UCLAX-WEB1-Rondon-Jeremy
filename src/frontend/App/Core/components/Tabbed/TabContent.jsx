@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 
 //styles
 const TabContentStyled = styled.div`
-    padding: 20px;
+    padding: 0px 0px 0px 0px;
     background-color: ${({ theme }) => theme.colors.primary.default};
     @media ${({ theme }) => theme.cssMedia.isMediumAndUp} {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     img {

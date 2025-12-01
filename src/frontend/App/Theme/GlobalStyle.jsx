@@ -1,12 +1,12 @@
 import { createGlobalStyle, css } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-    ${({ theme: { fonts, fontWeights, colors } }) => {
+    ${({ theme: { fontWeights, colors } }) => {
         return css`
             html,
             body {
                 margin: 0;
-                font-family: ${fonts.roboto};
+                font-family: "Arial", "Helvetica", sans-serif;
                 font-weight: ${fontWeights.regular};
             }
             body {
@@ -16,26 +16,12 @@ const GlobalStyle = createGlobalStyle`
                 min-width: 300px;
                 font-size: 16px;
                 line-height: 1.5;
-            }
-
-            body.modal-open {
-                position: fixed;
-                top: 0px;
-                right: 0px;
-                bottom: 0px;
-                left: 0px;
-                z-index: 1;
-            }
-
-            main {
-                background-color: ${colors.secondary.default};
-                color: ${colors.secondary.dark};
-                padding: 50px 0px 100px;
-                min-height: 800px;
+                font-family: "Arial", "Helvetica", sans-serif;
             }
 
             * {
                 box-sizing: border-box;
+                font-family: "Arial", "Helvetica", sans-serif;
             }
 
             h1,
@@ -46,14 +32,16 @@ const GlobalStyle = createGlobalStyle`
             h6 {
                 font-weight: ${fontWeights.bold};
                 margin: 0px 0px 14px;
-                color: ${colors.primary.default};
+                color: ${colors.secondary.light};
+                font-family: "Arial", "Helvetica", sans-serif;
             }
+
             p {
                 font-weight: ${fontWeights.regular};
                 margin: 0px 0px 28px;
                 font-size: 16px;
+                font-family: "Arial", "Helvetica", sans-serif;
             }
-
             li {
                 font-size: 14px;
                 margin-bottom: 5px;

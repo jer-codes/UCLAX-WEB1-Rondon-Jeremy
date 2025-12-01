@@ -10,7 +10,7 @@ const Logo = () => {
     const siteTitle = import.meta.env.VITE_APP_CONFIG_TITLE;
     return (
         <LogoStyled
-            src="/assets/crossfit-decimate-logo.png"
+            src="assets/two-point-five.png"
             alt={`${siteTitle} Logo`}
             title={`${siteTitle} Logo`}
         />
