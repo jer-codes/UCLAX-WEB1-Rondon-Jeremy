@@ -143,7 +143,7 @@ const GlobalStyle = createGlobalStyle`
 
                     &.active {
                         color: ${colors.secondary.light};
-                        background-color: ${colors.primary.default};
+                        background-color: ${colors.primary.dark};
                     }
                 }
             }

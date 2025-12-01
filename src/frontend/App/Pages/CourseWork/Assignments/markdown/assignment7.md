@@ -1,0 +1,3 @@
+### Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.
+
+In agile teams, the Product Manager decides what the product should do and what’s most important (and helps meet deadlines, like the Scrum Master). The Scrum Master helps the team stay on track and removes obstacles. UX Designers make sure the product is easy and accessible for users. Developers/Engineers write the code and build the features. QA/SDETs test everything to catch bugs and make sure there are no app-breaking issues. DevOps handles the deployment, servers, and tools to make sure updates go smoothly.
